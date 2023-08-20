@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             className="w-7 h-7 object-contain cursor-pointer flex items-center justify-center text-white"
             onClick={() => setToggle(!toggle)}
           >
-            {toggle ? "" : <img src="/menuburgerfreeiconfont-1.svg" alt="menu" className="w-7 h-7 object-contain" />}
+            {toggle ? "X" : <img src="/menuburgerfreeiconfont-1.svg" alt="menu" className="w-7 h-7 object-contain" />}
           </div>
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-[rgba(0,0,0,0.4)] backdrop-blur-md absolute top-20 right-4 mx-4 my-2 min-w-[140px] z-10 rounded-xl shadow-lg glow`}>
             <div className="flex flex-col justify-center items-center gap-4 text-white text-3xl font-commodus cursor-pointer">

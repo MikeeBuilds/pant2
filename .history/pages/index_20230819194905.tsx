@@ -16,15 +16,15 @@ const Home: NextPage = () => {
         The Pinnacle of DeFi Efficiency and Optimization.
       </div>
       <section
-        className="absolute top-[156px] md:top-[10%] left-1/2 transform -translate-x-1/2 text-center"
+        className="absolute top-[156px] md:top-[10%] left-[calc(50% - 735px)] md:left-1/2 transform md:-translate-x-1/2 text-center"
         style={{
-          fontSize: "6vw", // Responsive font size
+          fontSize: "120px",
           fontFamily: "Commodus",
           background: "linear-gradient(89.35deg, #c5a059, #deb750 28.65%, #e6d48a 51.56%, #f6dd75 76.56%, #c1a05d)",
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
-          width: "80%", // Responsive width
-          height: "auto", // Auto height
+          width: "1469px",
+          height: "130px", // Adjust as needed
           lineHeight: "1.2", // Adjust as needed
         }}
       >

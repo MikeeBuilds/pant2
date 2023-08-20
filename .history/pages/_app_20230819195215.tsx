@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 
 import Header  from '@/components/Header'
 import Footer from '@/components/Footer'
-import Roadmap from '@/components/Roadmap'
+import ROADMAP from '@/components/Roadmap'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       
       <Component {...pageProps}  />
       <Header />
-      <Roadmap />
+      <ROADMAP />
       <Footer />
     </>
   )

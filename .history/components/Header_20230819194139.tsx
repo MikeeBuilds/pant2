@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           <img src="/logo-col-png-1@2x.png" alt="logo" className="w-10 h-10 object-contain" />
           <h3 className="text-white text-3xl font-commodus">Pantheon</h3>
         </div>
-        <ul className="list-none hidden lg:flex flex-row gap-10 text-white text-3xl font-commodus cursor-pointer">
+        <ul className="list-none hidden lg:flex flex-row gap-10 text-white text-3xl font-commodus">
           <li>Learn</li>
           <li>Docs</li>
           <li className="py-1 px-3 rounded bg-gradient-to-r from-[#c5a059] via-[#deb750] to-[#b3914c]">DAPP</li>
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
             {toggle ? "" : <img src="/menuburgerfreeiconfont-1.svg" alt="menu" className="w-7 h-7 object-contain" />}
           </div>
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-[rgba(0,0,0,0.4)] backdrop-blur-md absolute top-20 right-4 mx-4 my-2 min-w-[140px] z-10 rounded-xl shadow-lg glow`}>
-            <div className="flex flex-col justify-center items-center gap-4 text-white text-3xl font-commodus cursor-pointer">
+            <div className="flex flex-col justify-center items-center gap-4 text-white text-3xl font-commodus">
               <li onClick={() => setToggle(!toggle)}>Learn</li>
               <li onClick={() => setToggle(!toggle)}>Docs</li>
               <li className="py-1 px-3 rounded bg-gradient-to-r from-[#c5a059] via-[#deb750] to-[#b3914c]" onClick={() => setToggle(!toggle)}>DAPP</li>
