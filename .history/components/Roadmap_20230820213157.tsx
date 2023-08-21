@@ -13,7 +13,7 @@ const Roadmap: NextPage = () => {
       <div className="absolute top-0 left-0 bg-gradient-to-b from-transparent to-black opacity-80 w-full h-1/2 md:h-1/3 lg:h-[486px]" />
       <div className="absolute top-0 left-0 bg-gradient-to-b from-transparent to-black opacity-40 transform rotate-180 w-full h-1/2 md:h-1/3 lg:h-[165px]" />
       <main className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-wrap justify-around w-full h-full md:w-[80%] lg:w-[1477px] lg:h-[813px] text-center text-xl text-white font-metropolis">
-        <div className="relative w-full md:w-[45%] h-[80%] rounded-[30px] bg-gradient-to-r from-transparent via-gray-100 to-transparent backdrop-blur-md shadow-lg p-4">
+        <div className="relative w-full md:w-[45%] h-[70%] rounded-[30px] bg-gradient-to-r from-transparent via-gray-100 to-transparent backdrop-blur-md shadow-lg p-4">
         <h1 className="text-inherit font-normal font-commodus" style={{ 
   background: 'linear-gradient(89.35deg, #c5a059, #deb750 28.65%, #e6d48a 51.56%, #f6dd75 76.56%, #c1a05d)', 
   WebkitBackgroundClip: 'text', 
